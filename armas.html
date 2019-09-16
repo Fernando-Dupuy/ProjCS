@@ -57,18 +57,17 @@
 		<div class="container-fluid">
 			<div class="row justify-content-center">
 
-				<div class="col-md border">
+				<div class="col-md-4 border">
 					<div class="row-sm border no-gutters">
 						<div class="col-sm-1-12 border">
-							<p class="h3 text-center text-white">Contra Terroristas </p>
-							<a class="btn btn-transparent justify-content-end" data-toggle="collapse"
-								data-target="#armasCT" role="button">
+							<p class="h3 text-center text-white">Contra Terroristas</p>
+							<a class="btn btn-transparent" data-toggle="collapse" data-target="#armasCT" role="button">
 								<img src="assets\img\CT.gif"
 									class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
 									alt="">
 							</a>
+							<hr class="my-2">
 						</div>
-						<hr class="my-2">
 					</div>
 
 					<div class="collapse" id="armasCT">
@@ -137,7 +136,7 @@
 											</div>
 
 										</div>
-	
+
 									</div>
 
 								</div>
@@ -193,72 +192,107 @@
 					</div>
 				</div>
 
-				<div class="col-md">
-					<div class="row-sm justify-content-end no-gutters">
+				<div class="col-md-4">
+					<div class="row justify-content-end no-gutters">
 						<div class="col-sm-1-12">
 							<p class="h3 text-white">Terroristas</p>
-							<img src="assets\img\Terrorista.gif"
-								class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
-								alt="">
+							<a class="btn btn-transparent" data-toggle="collapse" data-target="#armasTR" role="button">
+								<img src="assets\img\Terrorista.gif"
+									class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+									alt="">
+							</a>
 							<hr class="my-2">
 						</div>
 					</div>
-					<div class="row justify-content-end">
-						<div class="container-fluid">
-							<h1 class="display-4 text-white">Pistolas</h1>
-						</div>
-						<div class="card-columns">
-							<div class="card text-white bg-dark mb-3" style="width: 13rem;">
-								<img src="https://i.imgur.com/GrzVSvo.jpg" class="card-img-top" alt="...">
-								<div class="card-body">
-									<p class="card-text">Dual Berretas</p>
-									<p>Pistol- TR</p>
-								</div>
-							</div>
 
-							<div class="card text-white bg-dark mb-3" style="width: 13rem;">
-								<img src="https://i.imgur.com/Smo2e0u.jpg" class="card-img-top" alt="...">
-								<div class="card-body">
-									<p class="card-text">Tec-9</p>
-									<p>Pistol- TR</p>
-								</div>
-							</div>
+					<div class="collapse" id="armasTR">
+						<div id="carouselId" class="carousel slide" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#carouselId" data-slide-to="0" class="active"></li>
+								<li data-target="#carouselId" data-slide-to="1"></li>
+								<li data-target="#carouselId" data-slide-to="2"></li>
+							</ol>
+							<div class="carousel-inner" role="listbox">
+								<div class="carousel-item active">
+									<div class="row justify-content-end">
+										<div class="container-fluid">
+											<h1 class="display-4 text-white">Pistolas</h1>
+										</div>
+										<div class="card-deck">
+											<div class="card text-white bg-dark mb-3" style="width: 13rem;">
+												<img src="https://i.imgur.com/GrzVSvo.jpg" class="card-img-top"
+													alt="...">
+												<div class="card-body">
+													<p class="card-text">Dual Berretas</p>
+													<p>Pistol- TR</p>
+												</div>
+											</div>
 
-							<div class="card text-white bg-dark mb-3" style="width: 13rem;">
-								<img src="https://i.imgur.com/mx4b1n6.jpg" class="card-img-top" alt="...">
-								<div class="card-body">
-									<p class="card-text">R8 Revolver</p>
-									<p>Pistol- TR</p>
+											<div class="card text-white bg-dark mb-3" style="width: 13rem;">
+												<img src="https://i.imgur.com/Smo2e0u.jpg" class="card-img-top"
+													alt="...">
+												<div class="card-body">
+													<p class="card-text">Tec-9</p>
+													<p>Pistol- TR</p>
+												</div>
+											</div>
+
+											<div class="card text-white bg-dark mb-3" style="width: 13rem;">
+												<img src="https://i.imgur.com/mx4b1n6.jpg" class="card-img-top"
+													alt="...">
+												<div class="card-body">
+													<p class="card-text">R8 Revolver</p>
+													<p>Pistol- TR</p>
+												</div>
+											</div>
+											<div class="card text-white bg-dark mb-3" style="width: 13rem;">
+												<img src="https://i.imgur.com/mJodwSU.jpg" class="card-img-top"
+													alt="...">
+												<div class="card-body">
+													<p class="card-text">P-250</p>
+													<p>Pistol- CT/TR</p>
+												</div>
+											</div>
+
+											<div class="card text-white bg-dark mb-3" style="width: 13rem;">
+												<img src="https://i.imgur.com/YchPk8K.jpg" class="card-img-top"
+													alt="...">
+												<div class="card-body">
+													<p class="card-text">CZ75-Auto</p>
+													<p>Pistol- CT/TR</p>
+												</div>
+											</div>
+											<div class="card text-white bg-dark mb-3" style="width: 13rem;">
+												<img src="https://i.imgur.com/Ah9L7QZ.jpg" class="card-img-top"
+													alt="...">
+												<div class="card-body">
+													<p class="card-text">Desert-Eagle</p>
+													<p>Pistol- CT/TR</p>
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item">
+
+
+								</div>
+								<div class="carousel-item">
+
 								</div>
 							</div>
+							<a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
 						</div>
 					</div>
-					<div class="row justify-content-end">
-						<div class="card-columns">
-							<div class="card text-white bg-dark mb-3" style="width: 13rem;">
-								<img src="https://i.imgur.com/mJodwSU.jpg" class="card-img-top" alt="...">
-								<div class="card-body">
-									<p class="card-text">P-250</p>
-									<p>Pistol- CT/TR</p>
-								</div>
-							</div>
-
-							<div class="card text-white bg-dark mb-3" style="width: 13rem;">
-								<img src="https://i.imgur.com/YchPk8K.jpg" class="card-img-top" alt="...">
-								<div class="card-body">
-									<p class="card-text">CZ75-Auto</p>
-									<p>Pistol- CT/TR</p>
-								</div>
-							</div>
-							<div class="card text-white bg-dark mb-3" style="width: 13rem;">
-								<img src="https://i.imgur.com/Ah9L7QZ.jpg" class="card-img-top" alt="...">
-								<div class="card-body">
-									<p class="card-text">Desert-Eagle</p>
-									<p>Pistol- CT/TR</p>
-								</div>
-							</div>
-						</div>
-					</div>
+			
 				</div>
 
 
